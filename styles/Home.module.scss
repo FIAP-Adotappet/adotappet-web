@@ -7,12 +7,14 @@
 
 	img {
 		float: right;
+		transition: width .3s ease;
 		width: 55%;
 	}
 
-	div:not(.banner_filters) {
+	&_info {
 		margin-top: 90px;
 		display: inline-block;
+		transition: all .3s ease;
 		width: 40%;
 
 		span {
@@ -25,6 +27,7 @@
 			font-weight: 500;
 			line-height: 70px;
 			margin: 10px 0 45px;
+			transition: all .3s ease;
 		}
 	}
 
@@ -47,6 +50,52 @@
 				height: 30px;
 				width: auto;
 
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+		img {
+			width: 40%;
+		}
+
+		&_info {
+			margin-top: 0;
+
+			h1 {
+				font-size: 35px;
+				line-height: 32px;
+			}
+		}
+	}
+
+	@media (max-width: 860px) {
+		img {
+			display: block;
+			float: none;
+			margin: 0 auto;
+		}
+
+		&_info {
+			width: 100%;
+
+			h1 {
+				margin-bottom: 15px;
+
+				br {
+					display: none;
+				}
+			}
+		}
+
+		&_filters {
+			left: 50%;
+			margin-top: 45px;
+			position: relative;
+			transform: translateX(-50%);
+
+			a + a {
+				margin-left: 15px;
 			}
 		}
 	}
@@ -103,6 +152,7 @@
 				float: right;
 				opacity: .7;
 				margin: 5px 10px 0 0;
+				transition: all .3s ease;
 				width: 25px;
 			}
 
@@ -131,6 +181,18 @@
 		&.list_cat {
 			&:after {
 				background-image: url('/images/gato_1.png');
+			}
+		}
+	}
+
+	@media (max-width: 980px) {
+		article {
+			margin-bottom: 15px;
+			transition: all .3s ease;
+			width: calc(100% - 30px);
+
+			&:nth-of-type(2n+2) {
+				margin-left: 0;
 			}
 		}
 	}

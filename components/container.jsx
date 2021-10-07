@@ -32,7 +32,7 @@ const Layout = (props) => {
 				.container {
 					display: inline-block;
 					left: 50%;
-					min-width: 290px;
+					min-width: 450px;
 					max-width: 1280px;
 					position: relative;
 					transform: translateX(-50%);

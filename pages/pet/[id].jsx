@@ -16,7 +16,7 @@ export default function PetItem() {
 					<small>3 anos</small>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est et tempore. Doloribus cupiditate laudantium obcaecati accusantium accusamus, possimus similique quia blanditiis deleniti qui unde ullam facilis, ad repellat iste, culpa nesciunt, minus. Eaque, omnis, iure! Eveniet culpa at, nostrum reprehenderit. Aliquam dolorem delectus ratione labore dignissimos, mollitia dolore, voluptates.</p>
 
-					<a className="bt" href title="Tenho interesse em adotar">Tenho interesse no Dino!</a>
+					<a className="bt" href="#" title="Tenho interesse em adotar">Tenho interesse no Dino!</a>
 				</div>
 			</section>
 

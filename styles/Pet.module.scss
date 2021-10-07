@@ -9,11 +9,11 @@
 
 	> img {
 		float: right;
-		width: 45%;
+		max-width: 45%;
 	}
 
 	div {
-		margin-top: 90px;
+		margin-top: 3%;
 		display: inline-block;
 		width: 40%;
 
@@ -41,6 +41,22 @@
     		padding: 15px 50px;
 		}
 	}
+
+	@media (max-width: 1000px) {
+		background-position: center -50%;
+
+		> img {
+			display: block;
+			float: none;
+			margin: 0 auto;
+			max-width: 75%;
+		}
+
+		div {
+			margin-top: 30px;
+			width: 100%;
+		}
+	}
 }
 
 .bt_back {
@@ -50,4 +66,8 @@
 	margin-top: 150px;
 	position: relative;
 	transform: translateX(-50%);
+
+	@media (max-width: 1000px) {
+		margin-top: 60px;
+	}
 }
