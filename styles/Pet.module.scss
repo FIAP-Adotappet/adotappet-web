@@ -1,0 +1,53 @@
+@import 'variables';
+
+// Pet page
+.highlight {
+	background: url('/images/bg_highlight.png') no-repeat 90% center;
+	background-size: contain;
+	display: inline-block;
+	padding: 60px 10%;
+
+	> img {
+		float: right;
+		width: 45%;
+	}
+
+	div {
+		margin-top: 90px;
+		display: inline-block;
+		width: 40%;
+
+		img {
+			float: right;
+			margin-top: 30px;
+			width: 25px;
+		}
+
+		h1 {
+			color: $dark;
+			font-size: 75px;
+			font-weight: 500;
+			line-height: 70px;
+		}
+
+		small {
+			display: block;
+			margin-bottom: 30px;
+		}
+
+		> a {
+			display: inline-block;
+    		margin-top: 60px;
+    		padding: 15px 50px;
+		}
+	}
+}
+
+.bt_back {
+	background-color: #aaa;
+	display: inline-block;
+	left: 50%;
+	margin-top: 150px;
+	position: relative;
+	transform: translateX(-50%);
+}
