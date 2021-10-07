@@ -3,7 +3,7 @@ import Navbar from './navbar';
 
 const Layout = (props) => {
 	return(
-		<div>
+		<div className="container">
 			{/* metatags */}
 			<Head>
 				<title>adotappet</title>
@@ -20,12 +20,27 @@ const Layout = (props) => {
 			<Navbar />
 
 			{/* app container*/}
-			<div className="container">
+			<main className="content">
 				{props.children}
-			</div>
-		</div>
+			</main>
 
-	);
+			<style jsx>{`
+				.container {
+					display: inline-block;
+					left: 50%;
+					min-width: 290px;
+					max-width: 1280px;
+					position: relative;
+					transform: translateX(-50%);
+					width: calc(100% - 60px);
+
+					@media (max-width: 480px) {
+						width: calc(100% - 30px);
+					}
+				}
+			`}</style>
+		</div>
+	)
 }
 
 export default Layout;

@@ -33,3 +33,42 @@ table {
 
 // Fonts (Dosis)
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap');
+
+// Base
+html {
+	overflow-x: hidden;
+}
+
+body {
+	color: $base;
+	font: 400 18px/22px 'Dosis', Arial;
+	text-rendering: optimizeSpeed;
+
+	@media (max-width: 780px) {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+// Link
+.link {
+	color: $base;
+	transition: color .2s ease;
+
+	&:hover {
+		color: $dark;
+	}
+}
+
+// Button
+.bt {
+	background-color: $orange;
+	color: #fff;
+	border-radius: 3px;
+	padding: 7px 23px;
+	transition: background .3s ease;
+
+	&:hover {
+		background-color: $brown;
+	}
+}
