@@ -17,6 +17,83 @@ export default function Home() {
 					<a href className="bt" title="Filtrar por gatos para adoção">Gatos</a>
 				</div>
 			</section>
+
+			<section className={styles.list}>
+				<h2>Pets para adoção</h2>
+
+				<article className={styles.list_dog}>
+					<img src="/dog.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/male.png" />
+						<h1>Dino</h1>
+						<small>3 anos</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_cat}>
+					<img src="/cat.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/female.png" />
+						<h1>Amendoim</h1>
+						<small>1 ano</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_cat}>
+					<img src="/cat.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/female.png" />
+						<h1>Amendoim</h1>
+						<small>1 ano</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_dog}>
+					<img src="/dog.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/male.png" />
+						<h1>Dino</h1>
+						<small>3 anos</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_dog}>
+					<img src="/dog.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/male.png" />
+						<h1>Dino</h1>
+						<small>3 anos</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_cat}>
+					<img src="/cat.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/female.png" />
+						<h1>Amendoim</h1>
+						<small>1 ano</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_cat}>
+					<img src="/cat.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/female.png" />
+						<h1>Amendoim</h1>
+						<small>1 ano</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+				<article className={styles.list_dog}>
+					<img src="/dog.jpg" alt="nome_do_pet" />
+					<div>
+						<img src="/images/male.png" />
+						<h1>Dino</h1>
+						<small>3 anos</small>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+					</div>
+				</article>
+			</section>
 		</Container>
 	)
 }

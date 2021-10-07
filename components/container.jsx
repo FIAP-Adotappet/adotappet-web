@@ -24,6 +24,10 @@ const Layout = (props) => {
 				{props.children}
 			</main>
 
+			<footer>
+				<p>adotappet | Grupo 9 @ FIAP</p>
+			</footer>
+
 			<style jsx>{`
 				.container {
 					display: inline-block;
@@ -36,6 +40,14 @@ const Layout = (props) => {
 
 					@media (max-width: 480px) {
 						width: calc(100% - 30px);
+					}
+
+					footer {
+						border-top: 1px #eee solid;
+						font-size: 14px;
+						margin-top: 60px;
+						padding: 7px 15px;
+						text-align: center;
 					}
 				}
 			`}</style>
