@@ -3,7 +3,7 @@ import styles from '../styles/Navbar.module.scss'
 const Navbar = () => {
 	return (
 		<nav className={styles.navbar}>
-			<a className={[styles.navbar_register, 'bt'].join(' ')} href="#" title="Cadastre-se para adotar um pet">Cadastre-se</a>
+			<a className={[styles.navbar_register, 'bt', 'bt_brown'].join(' ')} href="#" title="Cadastre-se para adotar um pet">Cadastre-se</a>
 
 			<a className={styles.navbar_logo} href="/" title="adotappet">
 				<img src="/images/logo.png" alt="Logo adotappet" />

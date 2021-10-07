@@ -40,6 +40,7 @@ html {
 }
 
 body {
+	background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(240,240,240,1) 100%);
 	color: $base;
 	font: 400 18px/22px 'Dosis', Arial;
 	text-rendering: optimizeSpeed;
@@ -64,11 +65,21 @@ body {
 .bt {
 	background-color: $orange;
 	color: #fff;
-	border-radius: 3px;
-	padding: 7px 23px;
+	cursor: pointer;
+	border-radius: 9px;
+	font-weight: 500;
+	padding: 7px 23px 9px;
 	transition: background .3s ease;
 
 	&:hover {
 		background-color: $brown;
+	}
+
+	&_brown {
+		background-color: $brown;
+
+		&:hover {
+			background-color: $orange;
+		}
 	}
 }

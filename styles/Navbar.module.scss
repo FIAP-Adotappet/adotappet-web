@@ -9,7 +9,7 @@
 		display: inline-block;
 
 		img {
-			height: 35px;
+			height: 45px;
 		}
 
 		strong {
@@ -19,14 +19,14 @@
 			letter-spacing: -1px;
 			margin-left: 5px;
 			position: relative;
-			top: -10px;
+			top:-15px;
 		}
 	}
 
 	ul {
 		display: inline-block;
 		position: relative;
-		top: -10px;
+		top: -15px;
 
 		li {
 			display: inline-block;
@@ -41,6 +41,7 @@
 
 	&_register {
 		float: right;
+		margin-top: 5px;
 	}
 
 	@media (max-width: 720px) {

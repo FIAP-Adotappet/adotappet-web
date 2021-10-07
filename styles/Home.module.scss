@@ -1,3 +1,54 @@
-.banner {
+@import 'variables';
 
+.banner {
+	display: inline-block;
+	padding: 0 10%;
+
+	img {
+		float: right;
+		width: 55%;
+	}
+
+	div:not(.banner_filters) {
+		margin-top: 90px;
+		display: inline-block;
+		width: 40%;
+
+		span {
+			font-weight: 500;
+		}
+
+		h1 {
+			color: $dark;
+			font-size: 75px;
+			font-weight: 500;
+			line-height: 70px;
+			margin: 10px 0 45px;
+		}
+	}
+
+	&_filters {
+		display: inline-block;
+		margin-top: 60px;
+
+		a {
+			background: #fb7e2c url('/images/filtro_cachorro.png') no-repeat 30px center;
+			background-size: 25px;
+			padding: 12px 45px 14px 66px;
+
+			+ a {
+				background-image: url('/images/filtro_gato.png');
+				margin-left: 30px;
+			}
+
+			img {
+				display: block;
+				height: 30px;
+				width: auto;
+
+			}
+		}
+	}
 }
+
+
