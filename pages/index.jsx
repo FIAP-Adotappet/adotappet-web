@@ -19,11 +19,7 @@ const Home = ({ pets, error }) => (
 			</div>
 		</section>
 
-		<section className={styles.list}>
-			<h2>Pets para adoção</h2>
-
-			<PetList pets={pets} error={error} />
-		</section>
+		<PetList pets={pets} error={error} />
 	</Container>
 )
 
