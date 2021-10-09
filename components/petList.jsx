@@ -4,9 +4,7 @@ const PetList = ({ pets, error }) => {
 	// Error on pets request
 	if (error) {
 		return (
-			<section className={styles.list}>
-				<h2>Ops! Ocorreu um erro inesperado, por favor tente novamente.</h2>
-			</section>
+			<p className="error"><span>Ops!</span> Ocorreu um erro inesperado, por favor tente novamente.</p>
 		)
 	}
 

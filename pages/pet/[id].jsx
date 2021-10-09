@@ -7,6 +7,14 @@ axios.get('https://adotappet-api.herokuapp.com/api/pets/34').then(({ data }) => 
 })
 
 const PetItem = ({ pet, error }) => {
+	if (error) {
+		return (
+			<Container>
+				<p className="error"><span>Ops!</span> Ocorreu um erro inesperado, por favor tente novamente.</p>
+			</Container>
+		)
+	}
+
 	return (
 		<Container>
 			<section className={styles.highlight}>
