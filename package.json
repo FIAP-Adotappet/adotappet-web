@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open",
   },
   "dependencies": {
     "axios": "^0.22.0",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@styled-jsx/plugin-sass": "^4.0.1",
+    "cypress": "^8.6.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "sass": "^1.42.1"

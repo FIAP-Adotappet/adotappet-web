@@ -10,7 +10,7 @@ const PetList = ({ pets, error }) => {
 
 	// Pet list
 	return (
-		<section className={styles.list}>
+		<section id="pet_list" className={styles.list}>
 			<h2>Pets para adoção</h2>
 
 			{pets.map(pet => (

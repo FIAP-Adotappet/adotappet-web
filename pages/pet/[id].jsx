@@ -17,7 +17,7 @@ const PetItem = ({ pet, error }) => {
 
 	return (
 		<Container>
-			<section className={styles.highlight}>
+			<section id="detail" className={styles.highlight}>
 				<img src={pet.imagem} alt={pet.nome} />
 				<div>
 					<img src={pet.sexo == 'MASCULINO' ? '/images/male.png' : '/images/female.png'} />
@@ -29,11 +29,11 @@ const PetItem = ({ pet, error }) => {
 					<br />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est et tempore. Doloribus cupiditate laudantium obcaecati accusantium accusamus, possimus similique quia blanditiis deleniti qui unde ullam facilis, ad repellat iste, culpa nesciunt, minus. Eaque, omnis, iure! Eveniet culpa at, nostrum reprehenderit. Aliquam dolorem delectus ratione labore dignissimos, mollitia dolore, voluptates.</p>
 
-					<a className="bt" href="#" title="Tenho interesse em adotar">{'Tenho interesse n' + (pet.sexo == 'MASCULINO' ? 'o ' : 'a ') + pet.nome + '!'}</a>
+					<a id="bt_action" className="bt" href="#" title="Tenho interesse em adotar">{'Tenho interesse n' + (pet.sexo == 'MASCULINO' ? 'o ' : 'a ') + pet.nome + '!'}</a>
 				</div>
 			</section>
 
-			<a className={[styles.bt_back, 'bt', 'bt_brown'].join(' ')} href="/" title="Visualizar lista">Voltar e visualizar outros pets</a>
+			<a id="bt_back" className={[styles.bt_back, 'bt', 'bt_brown'].join(' ')} href="/" title="Visualizar lista">Voltar e visualizar outros pets</a>
 		</Container>
 	)
 }
