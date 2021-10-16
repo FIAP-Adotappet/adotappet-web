@@ -1,6 +1,7 @@
 import Container from '../../components/container'
 import styles from '../../styles/Pet.module.scss'
 import axios from 'axios'
+import Link from 'next/link'
 
 axios.get('https://adotappet-api.herokuapp.com/api/pets/34').then(({ data }) => {
   console.log('oi', data)
@@ -29,11 +30,14 @@ const PetItem = ({ pet, error }) => {
 					<br />
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est et tempore. Doloribus cupiditate laudantium obcaecati accusantium accusamus, possimus similique quia blanditiis deleniti qui unde ullam facilis, ad repellat iste, culpa nesciunt, minus. Eaque, omnis, iure! Eveniet culpa at, nostrum reprehenderit. Aliquam dolorem delectus ratione labore dignissimos, mollitia dolore, voluptates.</p>
 
-					<a id="bt_action" className="bt" href="#" title="Tenho interesse em adotar">{'Tenho interesse n' + (pet.sexo == 'MASCULINO' ? 'o ' : 'a ') + pet.nome + '!'}</a>
+          <Link href="#">
+            <a id="bt_action" className="bt" title="Tenho interesse em adotar">{'Tenho interesse n' + (pet.sexo == 'MASCULINO' ? 'o ' : 'a ') + pet.nome + '!'}</a>
+          </Link>	
 				</div>
 			</section>
-
-			<a id="bt_back" className={[styles.bt_back, 'bt', 'bt_brown'].join(' ')} href="/" title="Visualizar lista">Voltar e visualizar outros pets</a>
+      <Link href="/">
+        <a id="bt_back" className={[styles.bt_back, 'bt', 'bt_brown'].join(' ')} title="Visualizar lista">Voltar e visualizar outros pets</a>
+      </Link>
 		</Container>
 	)
 }

@@ -2,6 +2,7 @@ import Container from '/components/container'
 import PetList from '/components/petList'
 import styles from '../styles/Home.module.scss'
 import axios from 'axios'
+import Link from 'next/link'
 
 const Home = ({ pets, error }) => (
 	<Container>
@@ -14,8 +15,12 @@ const Home = ({ pets, error }) => (
 			</div>
 
 			<div id="banner_filter" className={styles.banner_filters}>
-				<a href="#" className="bt" title="Filtrar por cachorros para adoção">Cachorros</a>
-				<a href="#" className="bt" title="Filtrar por gatos para adoção">Gatos</a>
+        <Link href="#">
+          <a className="bt" title="Filtrar por cachorros para adoção">Cachorros</a>
+        </Link>
+        <Link href="#">
+          <a href="#" className="bt" title="Filtrar por gatos para adoção">Gatos</a>
+        </Link>
 			</div>
 		</section>
 
