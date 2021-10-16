@@ -10,9 +10,11 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Você instalou a versão mais recente estável (LTS) de [`Node`](https://nodejs.org/en/download/)
 
-## 🚀 Instalando Adotappet
+## 🚀 Subindo Adotappet
 
-Para instalar o Adotappet, siga estas etapas:
+Temos a última versão do adotappet rodando neste [link](https://adotappet-web.vercel.app/)
+
+Para rodar o Adotappet localmente, siga estas etapas:
 
 ```
 Abra o diretório do projeto em um terminal
