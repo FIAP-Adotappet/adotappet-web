@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Adotappet
 
-## Getting Started
+<img src="public/images/logo.png" alt="logo adotappet">
 
-First, run the development server:
+> Projeto com o intuito de facilitar a adoção de pets disponíveis para serem adotados. Simples, fácil e intuitivo, você vai encontrar o seu próximo companheiro de quatro patas no nosso site!
 
-```bash
-npm run dev
-# or
-yarn dev
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+* Você instalou a versão mais recente estável (LTS) de [`Node`](https://nodejs.org/en/download/)
+
+## 🚀 Instalando Adotappet
+
+Para instalar o Adotappet, siga estas etapas:
+
+```
+Abra o diretório do projeto em um terminal
+Rode o seguinte comando 'npm install && npm run dev'
+Pronto, o site abrirá em localhost:3000 e estará pronto para uso
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ☕ Usando Adotappet
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Para usar Adotappet, siga estas etapas:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```
+Escolha seu pet da lista
+Verifique os detalhes do pet escolhido
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Nas próximas atualizações será possível realizar login e efetivamente abrir um pedido de adoção, fiquem atentos
 
-## Learn More
+## 🧪 Testar a aplicação
 
-To learn more about Next.js, take a look at the following resources:
+Para executar os testes da aplicação siga esses passos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+Em um terminal, vá até a pasta do projeto e execute o comando 'npm run dev'
+Abra outro terminal e também na pasta do projeto execute o comando 'npm run cypress'
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Colaboradores
 
-## Deploy on Vercel
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/44610177?s=400&u=a295c0872f7b116a479c24b2bf9d4ebe39d8057c&v=4" width="100px;" alt="Foto do Felipe Ayoub no GitHub"/><br>
+        <sub>
+          <b>Felipe Ayoub Zanini</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/45915154?v=4" width="100px;" alt="Foto do Caique Porto no GitHub"/><br>
+        <sub>
+          <b>Caique Porto</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/38897172?v=4" width="100px;" alt="Foto do Willian Parente no GitHub"/><br>
+        <sub>
+          <b>Willian Parente</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/7451131?v=4" width="100px;" alt="Foto do Bruno Moraes no GitHub"/><br>
+        <sub>
+          <b>Bruno Moraes</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[⬆ Voltar ao topo](#Adotappet)<br>
